@@ -62,7 +62,7 @@ def create_osm_overlay(coordinates, output_file):
         icon=DivIcon(
             icon_size=(150,36),
             icon_anchor=(0,0),
-            html='<div style="font-size: 24pt; color : black">Start</div>',
+            #html='<div style="font-size: 24pt; color : black">Start</div>',
         )
     ).add_to(map_osm)
 
@@ -78,10 +78,137 @@ def create_osm_overlay(coordinates, output_file):
         icon=DivIcon(
             icon_size=(150,36),
             icon_anchor=(0,0),
-            html='<div style="font-size: 24pt; color : black">End</div>',
+            #html='<div style="font-size: 24pt; color : black">End</div>',
         )
     ).add_to(map_osm)
     #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    # Roundabouts
+    #------------------------------------------------------------------
+
+    # RA1
+    folium.Marker(
+        location=[57.70974, 11.91848], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.70974, 11.91848],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA1</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+
+    # RA2
+    folium.Marker(
+        location=[57.70210, 11.91155], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.70210, 11.91155],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA2</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+    # RA3
+    folium.Marker(
+        location=[57.70655, 11.92205], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.70655, 11.92205],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA3</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+    # RA4
+    folium.Marker(
+        location=[57.70998, 11.92721], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.70998, 11.92721],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA4</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+    
+    # RA5
+    folium.Marker(
+        location=[57.71007, 11.93112], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        location=[57.71007, 11.93112],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA5</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+    # RA6
+    folium.Marker(
+        location=[57.70771, 11.93477], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.70771, 11.93477],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA6</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+    # RA7
+    folium.Marker(
+        location=[57.71113, 11.94337], 
+        #popup=folium.Popup('<b>Start</b>', max_width=200), 
+        #icon=folium.Icon(color='black', icon='map-marker')
+    ).add_to(map_osm)
+
+    folium.map.Marker(
+        [57.71113, 11.94337],
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 16pt; color : red; font-weight: bold;";>RA7</div>',
+        )
+    ).add_to(map_osm)
+    # !-!
+
+    #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 
     # Create a PolyLine to represent the route
     route_line = folium.PolyLine(locations=coordinates, color='blue')
