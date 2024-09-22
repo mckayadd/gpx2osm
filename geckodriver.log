@@ -1,0 +1,36 @@
+1696364913505	geckodriver	INFO	Listening on 127.0.0.1:51124
+1696364914524	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/2y/67trgzps65qby53cb1dlwrdc0000gp/T/rust_mozprofileTW90ws"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696364926845	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1696364927188	Marionette	INFO	Listening on port 51135
+Read port: 51135
+1696364927414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1696364933705	Marionette	INFO	Stopped listening on port 51135
+1696365011752	geckodriver	INFO	Listening on 127.0.0.1:51205
+1696365012770	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/2y/67trgzps65qby53cb1dlwrdc0000gp/T/rust_mozprofileRW0V97"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696365013063	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1696365013246	Marionette	INFO	Listening on port 51216
+Read port: 51216
+1696365013390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1696365015712	Marionette	INFO	Stopped listening on port 51216
+1696365183391	geckodriver	INFO	Listening on 127.0.0.1:51265
+1696365184409	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ize=1920x1080" "-foreground" "-no-remote" "-profile" "/var/folders/2y/67trgzps65qby53cb1dlwrdc0000gp/T/rust_mozprofile3VqoBn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696365184706	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1696365184882	Marionette	INFO	Listening on port 51276
+Read port: 51276
+1696365185030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1696365187356	Marionette	INFO	Stopped listening on port 51276
